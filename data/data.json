@@ -1,0 +1,818 @@
+{
+    "roadmap": [
+        {
+            "id": "1",
+            "title": "Core",
+            "description": "Specific abilities that are needed as basis for software engineering.",
+            "topics": [
+                {
+                    "id": "1.1",
+                    "title": "Programming Languages",
+                    "description": "Learn one (or more) Programming Languages to a proficiency that allows you to quickly jump-in to any project as needed.",
+                    "courses": [
+                        {
+                            "id": "1.1.1",
+                            "type": "basic",
+                            "title": "Programming Foundations: Fundamentals",
+                            "duration": "2h 14m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/6d6d6650-0718-4f29-b6a3-6c09fd81b191"
+                        },
+                        {
+                            "id": "1.1.2",
+                            "type": "basic",
+                            "title": "JavaScript Essential Training",
+                            "duration": "5h 29m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/e4b3d2db-05de-4f54-ad73-3e8a76f8ffd4"
+                        },
+                        {
+                            "id": "1.1.3",
+                            "type": "basic",
+                            "title": "Python Essential Training",
+                            "duration": "4h 37m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/f8267b19-6b67-4d69-b23c-494487472010"
+                        },
+                        {
+                            "id": "1.1.4",
+                            "type": "basic",
+                            "title": "HTML Essential Training",
+                            "duration": "2h 45m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/4d22b7e6-7150-45af-8234-b0ff3ced1265"
+                        },
+                        {
+                            "id": "1.1.5",
+                            "type": "basic",
+                            "title": "CSS Essential Training",
+                            "duration": "4h 29m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/d5baff12-0eb0-43a2-9bd6-bf6ba931e16c"
+                        },
+                        {
+                            "id": "1.1.6",
+                            "type": "basic",
+                            "title": "Learning Go",
+                            "duration": "2h 22m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/32a53106-b625-4293-a8a5-70d4eb56cd98"
+                        },
+                        {
+                            "id": "1.1.7",
+                            "type": "advanced",
+                            "title": "Advanced Java Programming",
+                            "duration": "1h 55m",
+                            "url": "https://www.linkedin.com/learning/advanced-java-programming-2/"
+                        },
+                        {
+                            "id": "1.1.8",
+                            "type": "advanced",
+                            "title": "Object Oriented Programming with C#",
+                            "duration": "4h 7m",
+                            "url": "https://www.linkedin.com/learning/object-oriented-programming-with-c-sharp/"
+                        },
+                        {
+                            "id": "1.1.9",
+                            "type": "advanced",
+                            "title": "SQL Essential Training",
+                            "duration": "3h",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/d40d52cb-5d93-4504-b2e4-7097c3d393c3"
+                        },
+                        {
+                            "id": "1.1.10",
+                            "type": "reading",
+                            "title": "The Pragmatic Programmer (2nd Edition)",
+                            "duration": "352pg",
+                            "url": "https://www.amazon.com/dp/0135957052/"
+                        }
+                    ]
+                },
+                {
+                    "id": "1.2",
+                    "title": "Computer Science & Software Engineering",
+                    "description": "Computer Science and Software Engineering topics.",
+                    "courses": [
+                        {
+                            "id": "1.2.1",
+                            "type": "basic",
+                            "title": "Programming Foundations: Data Structures",
+                            "duration": "2h 20m",
+                            "url": "https://www.linkedin.com/learning/programming-foundations-data-structures-2"
+                        },
+                        {
+                            "id": "1.2.2",
+                            "type": "basic",
+                            "title": "Programming Foundations: Algorithms",
+                            "duration": "1h 45m",
+                            "url": "https://www.linkedin.com/learning/programming-foundations-algorithms"
+                        },
+                        {
+                            "id": "1.2.3",
+                            "type": "basic",
+                            "title": "Programming Foundations: Design Patterns",
+                            "duration": "1h 45m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/b18aab68-ccd1-401c-ab21-32aeb5430c02"
+                        },
+                        {
+                            "id": "1.2.4",
+                            "type": "advanced",
+                            "title": "Applied Machine Learning: Algorithms",
+                            "duration": "2h 24m",
+                            "url": "https://www.linkedin.com/learning/applied-machine-learning-algorithms/"
+                        },
+                        {
+                            "id": "1.2.5",
+                            "type": "advanced",
+                            "title": "AI Algorithms for Gaming",
+                            "duration": "2h 5m",
+                            "url": "https://www.linkedin.com/learning/ai-algorithms-for-gaming/"
+                        },
+                        {
+                            "id": "1.2.6",
+                            "type": "basic",
+                            "title": "Software Design: Modeling with UML",
+                            "duration": "1h 41m",
+                            "url": "https://www.linkedin.com/learning/software-design-modeling-with-uml/"
+                        },
+                        {
+                            "id": "1.2.7",
+                            "type": "reading",
+                            "title": "Design Patterns: Elements of Reusable Object-Oriented Programming",
+                            "duration": "416pg",
+                            "url": "https://www.amazon.com/dp/0201633612/"
+                        },
+                        {
+                            "id": "1.2.8",
+                            "type": "reading",
+                            "title": "Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software",
+                            "duration": "672pg",
+                            "url": "https://www.amazon.com/dp/149207800X/"
+                        },
+                        {
+                            "id": "1.2.9",
+                            "type": "reading",
+                            "title": "Adaptive Code: Agile coding with design patterns and SOLID principles",
+                            "duration": "428pg",
+                            "url": "https://www.amazon.com/dp/B071YC5ML9/"
+                        },
+                        {
+                            "id": "1.2.10",
+                            "type": "reading",
+                            "title": "Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps",
+                            "duration": "408pg",
+                            "url": "https://www.amazon.com/dp/1098115783/"
+                        }
+                    ]
+                },
+                {
+                    "id": "1.3",
+                    "title": "Cloud Providers",
+                    "description": "Learn about the products offered by one (or more) Cloud Providers to a proficiency that allows you to quickly jump-in to any project as needed.",
+
+                    "courses": [
+                        {
+                            "id": "1.3.1",
+                            "type": "basic",
+                            "title": "AWS Cloud Practitioner Certification",
+                            "duration": "Months",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/e3ecee68-6725-4958-9a31-35aba5f37286"
+                        },
+                        {
+                            "id": "1.3.2",
+                            "type": "basic",
+                            "title": "Microsoft Certified: Azure Developer Associate",
+                            "duration": "Months",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/13818db3-fb96-405f-b0fe-22e4b59102f6"
+                        },
+                        {
+                            "id": "1.3.3",
+                            "type": "basic",
+                            "title": "GCP - Associate Cloud Engineer Certification",
+                            "duration": "Months",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/abca8b4c-15e8-4ea6-96b9-ba59c4047c05"
+                        }
+                    ]
+                },
+                {
+                    "id": "1.4",
+                    "title": "Cloud Services",
+                    "description": "Learn about the different Cloud Services available.",
+                    "courses": [
+                        {
+                            "id": "1.4.1",
+                            "type": "basic",
+                            "title": "Planning a Multicloud Solution",
+                            "duration": "3h",
+                            "url": "https://www.linkedin.com/learning/planning-a-multicloud-solution/"
+                        },
+                        {
+                            "id": "1.4.2",
+                            "type": "basic",
+                            "title": "Everything as a Service (XaaS) is the Future of Business",
+                            "duration": "43m",
+                            "url": "https://www.linkedin.com/learning/everything-as-a-service-xaas-is-the-future-of-business/"
+                        },
+                        {
+                            "id": "1.4.3",
+                            "type": "basic",
+                            "title": "Learning Cloud Computing: Serverless Computing",
+                            "duration": "1h 17m",
+                            "url": "https://www.linkedin.com/learning/learning-cloud-computing-serverless-computing/"
+                        },
+                        {
+                            "id": "1.4.4",
+                            "type": "basic",
+                            "title": "Design a Cloud Migration Strategy",
+                            "duration": "1h 54m",
+                            "url": "https://www.linkedin.com/learning/design-a-cloud-migration-strategy/"
+                        },
+                        {
+                            "id": "1.4.5",
+                            "type": "advanced",
+                            "title": "Cloud Architecture: Advanced Concepts",
+                            "duration": "1h 15m",
+                            "url": "https://www.linkedin.com/learning/cloud-architecture-advanced-concepts-2/"
+                        },
+                        {
+                            "id": "1.4.6",
+                            "type": "advanced",
+                            "title": "Cybersecurity with Cloud Computing",
+                            "duration": "2h 27m",
+                            "url": "https://www.linkedin.com/learning/cybersecurity-with-cloud-computing-2/"
+                        },
+                        {
+                            "id": "1.4.7",
+                            "type": "reading",
+                            "title": "The Read Aloud Cloud: An Innocent's Guide to the Tech Inside",
+                            "duration": "176pg",
+                            "url": "https://www.amazon.com/dp/1119677629/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Communicating",
+            "description": "Skills that are useful to clearly communicate with different stakeholders in various ways.",
+            "topics": [
+                {
+                    "id": "2.1",
+                    "title": "Basics",
+                    "description": "Elemental knowledge about daily communication needs.",
+                    "courses": [
+                        {
+                            "id": "2.1.1",
+                            "type": "basic",
+                            "title": "Communication Foundations",
+                            "duration": "1h 17m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/e325523a-f38a-4b5a-bf16-08ce26aea5d7"
+                        },
+                        {
+                            "id": "2.1.2",
+                            "type": "basic",
+                            "title": "Tips for Writing Business Emails",
+                            "duration": "34m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/49875117-4b6c-4103-8e9f-4a41413207e1"
+                        },
+                        {
+                            "id": "2.1.3",
+                            "type": "basic",
+                            "title": "Tips for Better Business Writing",
+                            "duration": "28m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/53557697-afe7-4fe4-8491-202e84b5fd59"
+                        },
+                        {
+                            "id": "2.1.4",
+                            "type": "basic",
+                            "title": "Communicating with Confidence",
+                            "duration": "1h 16m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/49875117-4b6c-4103-8e9f-4a41413207e1"
+                        },
+                        {
+                            "id": "2.1.5",
+                            "type": "basic",
+                            "title": "Communicating with Transparency",
+                            "duration": "37m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/e05c134d-8832-4de9-a6ee-409125f20f27"
+                        }
+                    ]
+                },
+                {
+                    "id": "2.2",
+                    "title": "Customer Interaction",
+                    "description": "Topics helpful to establish better relationships with customers.",
+                    "courses": [
+                        {
+                            "id": "2.2.1",
+                            "type": "basic",
+                            "title": "Leading a Customer-Centric Culture",
+                            "duration": "36m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/83bf6342-ea3f-4d50-b886-1a1771df4de0"
+                        },
+                        {
+                            "id": "2.2.2",
+                            "type": "basic",
+                            "title": "Managing Project Stakeholders",
+                            "duration": "23m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/45635245-66c3-4c50-8d1d-032354797427"
+                        },
+                        {
+                            "id": "2.2.3",
+                            "type": "advanced",
+                            "title": "Creating Positive Conversations with Challenging Customers",
+                            "duration": "33m",
+                            "url": "https://www.linkedin.com/learning/creating-positive-conversations-with-challenging-customers/"
+                        }
+                    ]
+                },
+                {
+                    "id": "2.3",
+                    "title": "Presenting",
+                    "description": "Courses for improving presentation skills.",
+                    "courses": [
+                        {
+                            "id": "2.3.1",
+                            "type": "basic",
+                            "title": "Boosting Your Confidence, Public Speaking and Performance",
+                            "duration": "24m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/f3993d42-4c55-40b4-baad-7911ed77494e"
+                        },
+                        {
+                            "id": "2.3.2",
+                            "type": "basic",
+                            "title": "Presenting Technical Information with Stories",
+                            "duration": "31m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/0499205b-27dc-4f94-a685-1803b8110ba4"
+                        },
+                        {
+                            "id": "2.3.3",
+                            "type": "advanced",
+                            "title": "Own Your Voice: Improve Presentations and Executive Presence",
+                            "duration": "37m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/53b83003-5068-4b81-aa55-44be0367fb6e"
+                        }
+                    ]
+                },
+                {
+                    "id": "2.4",
+                    "title": "Virtual Communication",
+                    "description": "Useful topics for virtual/remote communication.",
+                    "courses": [
+                        {
+                            "id": "2.4.1",
+                            "type": "basic",
+                            "title": "Beyond Remote Communication",
+                            "duration": "1h 30m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/1c310128-0b72-4383-a5e7-7c61bc1acee7"
+                        },
+                        {
+                            "id": "2.4.2",
+                            "type": "basic",
+                            "title": "Digital Body Language",
+                            "duration": "25m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/805e0dea-0dec-4a62-addf-9b78d5fa1086"
+                        },
+                        {
+                            "id": "2.4.3",
+                            "type": "advanced",
+                            "title": "Executive Presence on Video Conference Calls",
+                            "duration": "34m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/8fd47c9c-fddd-4cf4-8900-6b694fd4558f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Collaborating",
+            "description": "Topics to foster building High Performance Teams.",
+            "topics": [
+                {
+                    "id": "3.1",
+                    "title": "Foundations",
+                    "description": "Foundational elements to understand and build high performance teams.",
+                    "courses": [
+                        {
+                            "id": "3.1.1",
+                            "type": "basic",
+                            "title": "Building High-Performance Teams",
+                            "duration": "1h 50m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/1132d247-f36b-4b52-b09b-8ea69cde92d5"
+                        },
+                        {
+                            "id": "3.1.2",
+                            "type": "basic",
+                            "title": "Decision-Making Strategies for Optimal Team Performance: A Primer for Team Leaders",
+                            "duration": "34m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/bafa913f-3968-4952-a1be-d670ad8e7c4d"
+                        }
+                    ]
+                },
+                {
+                    "id": "3.2",
+                    "title": "Conflict Resolution",
+                    "description": "Elements to improve relationships with collaborators when conflict is present.",
+                    "courses": [
+                        {
+                            "id": "3.2.1",
+                            "type": "basic",
+                            "title": "Conflict Resolution Foundations",
+                            "duration": "51m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/da2ee816-6e6b-4425-a14d-df3792982f4e"
+                        }
+                    ]
+                },
+                {
+                    "id": "3.3",
+                    "title": "Interpersonal Skills",
+                    "description": "Techniques for getting your message across effectively.",
+                    "courses": [
+                        {
+                            "id": "3.3.1",
+                            "type": "basic",
+                            "title": "Interpersonal Communication",
+                            "duration": "37m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/fb7343a6-13b8-4ad0-b757-748e784b1d31"
+                        }
+                    ]
+                },
+                {
+                    "id": "3.4",
+                    "title": "Time Management",
+                    "description": "Tips to increase productivity by managing time effectively.",
+                    "courses": [
+                        {
+                            "id": "3.4.1",
+                            "type": "basic",
+                            "title": "Managing Your Time",
+                            "duration": "11m",
+                            "url": "https://www.linkedin.com/learning/managing-your-time/thinking-about-time-management"
+                        },
+                        {
+                            "id": "3.4.2",
+                            "type": "basic",
+                            "title": "How to Work Smarter, Not Harder: Save Time and Money and Increase Productivity",
+                            "duration": "1h 8m",
+                            "url": "https://www.linkedin.com/learning/how-to-work-smarter-not-harder-save-time-and-money-and-increase-productivity/"
+                        }
+                    ]
+                },
+                {
+                    "id": "3.5",
+                    "title": "Metrics",
+                    "description": "Topics to implement useful measures for Team and DevOps performance.",
+                    "courses": [
+                        {
+                            "id": "3.5.1",
+                            "type": "basic",
+                            "title": "DevOps Foundations: Lean and Agile",
+                            "duration": "1h 26m",
+                            "url": "https://www.linkedin.com/learning/devops-foundations-lean-and-agile/"
+                        },
+                        {
+                            "id": "3.5.2",
+                            "type": "basic",
+                            "title": "IT Service Management Foundations: Measures and Metrics",
+                            "duration": "1h 36m",
+                            "url": "https://www.linkedin.com/learning/it-service-management-foundations-measures-and-metrics/"
+                        },
+                        {
+                            "id": "3.5.3",
+                            "type": "basic",
+                            "title": "Measuring Team Performance",
+                            "duration": "1h 25m",
+                            "url": "https://www.linkedin.com/learning/measuring-team-performance/"
+                        },
+                        {
+                            "id": "3.5.4",
+                            "type": "reading",
+                            "title": "Measuring DevOps",
+                            "duration": "30m",
+                            "url": "https://newrelic.com/devops/measuring-devops"
+                        },
+                        {
+                            "id": "3.5.5",
+                            "type": "reading",
+                            "title": "Team health monitor",
+                            "duration": "20m",
+                            "url": "https://wizeline.atlassian.net/l/c/3yTYoapn"
+                        },
+                        {
+                            "id": "3.5.6",
+                            "type": "reading",
+                            "title": "The DevOps Handbook",
+                            "duration": "528pg",
+                            "url": "https://www.amazon.com/dp/1950508404/"
+                        },
+                        {
+                            "id": "3.5.7",
+                            "type": "reading",
+                            "title": "Accelerate: The Sience of DevOps",
+                            "duration": "288pg",
+                            "url": "https://www.amazon.com/dp/1942788339"
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Thinking",
+            "description": "Competencies to booster thinking out-of-the-box.",
+            "topics": [
+                {
+                    "id": "4.1",
+                    "title": "All About Thinking",
+                    "description": "Thinking: Creative, Critical, Design, Strategic, System.",
+                    "courses": [
+                        {
+                            "id": "4.1.1",
+                            "type": "basic",
+                            "title": "Thinking Creatively",
+                            "duration": "41m",
+                            "url": "https://www.linkedin.com/learning/thinking-creatively/"
+                        },
+                        {
+                            "id": "4.1.2",
+                            "type": "basic",
+                            "title": "Systems Thinking",
+                            "duration": "34m",
+                            "url": "https://www.linkedin.com/learning/systems-thinking/"
+                        },
+                        {
+                            "id": "4.1.3",
+                            "type": "basic",
+                            "title": "Design Thinking: Understanding the Process",
+                            "duration": "41m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/ddd087cb-6887-49b9-9700-dece1b96001f"
+                        },
+                        {
+                            "id": "4.1.4",
+                            "type": "advanced",
+                            "title": "Critical Thinking for Better Judgment and Decision-Making",
+                            "duration": "56m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/e7220f00-1322-4b96-97d3-8058d0750632"
+                        },
+                        {
+                            "id": "4.1.5",
+                            "type": "advanced",
+                            "title": "Leading with Innovation",
+                            "duration": "1h 31m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/803d76f2-1364-458b-976c-9ae55f4d422f"
+                        },
+                        {
+                            "id": "4.1.6",
+                            "type": "advanced",
+                            "title": "Learning Design Thinking: Lead Change in Your Organization",
+                            "duration": "2h 8m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/a418956c-704c-469e-aa03-dcc9f94f17b3"
+                        },
+                        {
+                            "id": "4.1.7",
+                            "type": "advanced",
+                            "title": "Learning Path: Improve Your Problem-Solving Skills",
+                            "duration": "Weeks",
+                            "url": "https://myacademy.wizeline.com/#/curricula/2f44b5a9-cb49-4cb1-a466-af8ce2f90634"
+                        }
+
+                    ]
+                },
+                {
+                    "id": "4.2",
+                    "title": "Architecture",
+                    "description": "Architectural view to address challenges faced when using IT to meet business goals.",
+                    "courses": [
+                        {
+                            "id": "4.2.1",
+                            "type": "basic",
+                            "title": "Software Architecture Foundations",
+                            "duration": "1h 36m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/df576023-ae44-418b-8ff1-83b4c427fb5b"
+                        },
+                        {
+                            "id": "4.2.2",
+                            "type": "basic",
+                            "title": "Enterprise Architecture Foundations",
+                            "duration": "57m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/49fb1002-6c5d-4e14-9065-3b70a7d22f17"
+                        },
+                        {
+                            "id": "4.2.3",
+                            "type": "basic",
+                            "title": "Cloud Architecture: Core Concepts",
+                            "duration": "1h 33m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/e179f6b5-1377-4218-8c6c-bac4aab6869a"
+                        },
+                        {
+                            "id": "4.2.4",
+                            "type": "basic",
+                            "title": "Enterprise Architecture in Practice",
+                            "duration": "56m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/4b658e82-9ab0-4289-988d-1b8ff6a2beb5"
+                        },
+                        {
+                            "id": "4.2.5",
+                            "type": "reading",
+                            "title": "37 Things One Architect Knows About IT Transformation",
+                            "duration": "287pg",
+                            "url": "https://www.amazon.com/dp/1537082981/"
+                        },
+                        {
+                            "id": "4.2.6",
+                            "type": "reading",
+                            "title": "The Practice of Enterprise Architecture",
+                            "duration": "569pg",
+                            "url": "https://www.amazon.com/dp/064508252X/"
+                        },
+                        {
+                            "id": "4.2.7",
+                            "type": "reading",
+                            "title": "Software Architecture Patterns",
+                            "duration": "54pg",
+                            "url": "https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/"
+                        },
+                        {
+                            "id": "4.2.8",
+                            "type": "reading",
+                            "title": "Microservices Patterns",
+                            "duration": "522pg",
+                            "url": "https://www.amazon.com/dp/1617294543/"
+                        }
+                    ]
+                },
+                {
+                    "id": "4.3",
+                    "title": "Role Play Use Cases",
+                    "description": "Challenges faced by every kind of organization that can be solved with technology.",
+                    "courses": [
+                        {
+                            "id": "4.3.1",
+                            "type": "reading",
+                            "title": "Example Challenges",
+                            "duration": "Weeks",
+                            "url": "https://tech.cornell.edu/studio/curriculum/product-studio/example-challenges-1/"
+                        }
+                    ]
+                },
+                {
+                    "id": "4.4",
+                    "title": "Technology Trends",
+                    "description": "Areas to watch, learn and focus for upcoming opportunities.",
+                    "courses": [
+                        {
+                            "id": "4.4.1",
+                            "type": "reading",
+                            "title": "Gartner Top Strategic Technology Trends",
+                            "duration": "Weeks",
+                            "url": "https://www.gartner.com/en/information-technology/insights/top-technology-trends"
+                        },
+                        {
+                            "id": "4.4.2",
+                            "type": "reading",
+                            "title": "Deloitte Tech Trends",
+                            "duration": "Weeks",
+                            "url": "https://www2.deloitte.com/us/en/insights/focus/tech-trends.html"
+                        },
+                        {
+                            "id": "4.4.3",
+                            "type": "reading",
+                            "title": "IBM 5 in 5",
+                            "duration": "Weeks",
+                            "url": "https://research.ibm.com/interactive/5-in-5/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Partnering",
+            "description": "Develop talents to partner with clients.",
+            "topics": [
+                {
+                    "id": "5.1",
+                    "title": "Business Acumen",
+                    "description": "Learn on how to understand business needs and transform them into solutions.",
+                    "courses": [
+                        {
+                            "id": "5.1.1",
+                            "type": "basic",
+                            "title": "Business Analysis Foundations",
+                            "duration": "1h 25m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/6fcda2cb-128a-4452-b67c-56be5b952c38"
+                        },
+                        {
+                            "id": "5.1.2",
+                            "type": "basic",
+                            "title": "Product Management First Steps",
+                            "duration": "1h 36m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/89c7eb00-553e-4a25-8ac8-e8edfe778ca1"
+                        },
+                        {
+                            "id": "5.1.3",
+                            "type": "advanced",
+                            "title": "Business Fundamentals by Wizeline",
+                            "duration": "Weeks",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/1bb91288-79fc-45b2-bed5-4620166a18be"
+                        }
+                    ]
+                },
+                {
+                    "id": "5.2",
+                    "title": "Consulting",
+                    "description": "Classes to understand how to be a successful consultant.",
+                    "courses": [
+                        {
+                            "id": "5.2.1",
+                            "type": "basic",
+                            "title": "Consulting Foundations",
+                            "duration": "1h 35m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/1d55556a-881c-4e04-bc57-46f492fe07a6"
+                        },
+                        {
+                            "id": "5.2.2",
+                            "type": "basic",
+                            "title": "Consulting Professional Weekly Tips",
+                            "duration": "1h 42m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/19ab0ffc-444b-4903-8b3f-48e942be0137"
+                        },
+                        {
+                            "id": "5.2.3",
+                            "type": "reading",
+                            "title": "Power Questions",
+                            "duration": "224pg",
+                            "url": "https://www.amazon.com/dp/1118119630/"
+                        }
+                    ]
+                },
+                {
+                    "id": "5.3",
+                    "title": "Negotiation",
+                    "description": "Learn the rules of negotiation to get win-win scenarios.",
+                    "courses": [
+                        {
+                            "id": "5.3.1",
+                            "type": "basic",
+                            "title": "Negotiation Skills",
+                            "duration": "2h 7m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/b552f1f6-694e-4530-b13f-5a53cce2fb93"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "title": "Sharing",
+            "description": "Capabilities supporting the sharing of advise and guidance to others.",
+            "topics": [
+                {
+                    "id": "6.1",
+                    "title": "Self-Leadership",
+                    "description": "Lead yourself before leading others.",
+                    "courses": [
+                        {
+                            "id": "6.1.1",
+                            "type": "basic",
+                            "title": "Mastering Self-Leadership",
+                            "duration": "26m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/9a745e77-9d46-4157-9e01-f7de98135e28"
+                        }
+                    ]
+                },
+                {
+                    "id": "6.2",
+                    "title": "Supporting Colleagues",
+                    "description": "Topics on how to support others through sharing experience.",
+                    "courses": [
+                        {
+                            "id": "6.2.1",
+                            "type": "basic",
+                            "title": "Charlene Li on Digital Leadership",
+                            "duration": "58m",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/7e4f9b44-b2f5-4097-a4c6-579fe6c6bd9c"
+                        },
+                        {
+                            "id": "6.2.2",
+                            "type": "basic",
+                            "title": "Being a Good Mentor",
+                            "duration": "1h",
+                            "url": "https://myacademy.wizeline.com/#/online-courses/71b71d7b-b2a9-4cc1-a13e-7fca2908d115"
+                        },
+                        {
+                            "id": "6.2.3",
+                            "type": "basic",
+                            "title": "Influencing Others",
+                            "duration": "41m",
+                            "url":  "https://myacademy.wizeline.com/#/online-courses/6bcc9864-4c4e-4d10-a718-477dea868271"
+                        },
+                        {
+                            "id": "6.2.4",
+                            "type": "reading",
+                            "title": "Coaching Questions",
+                            "duration": "100pg",
+                            "url":  "https://www.amazon.com/dp/0979416361/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
