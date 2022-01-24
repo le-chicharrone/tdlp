@@ -1,2 +1,1 @@
-# tdlp
-Tech Director Learning Path
+#Tech Director Learning Path
