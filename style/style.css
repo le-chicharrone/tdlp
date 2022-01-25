@@ -318,8 +318,8 @@ details.level-3 a:hover, details.level-3 a:active, details.level-3 a:focus {
 }
 
 .course-status {
-  background-color: var(--course-status);
-  border: solid 3px var(--course-status);
+  background-color: transparent;
+  border: solid 3px transparent;
   border-radius: 8px;
   display: inline-block;
   height: 16px;
@@ -338,6 +338,19 @@ details.level-3 a:hover, details.level-3 a:active, details.level-3 a:focus {
   display: inline-block;
   height: 16px;
   margin: -3px 0px 2px -3px;
+  width: 16px;
+}
+
+.course-status span.skipped {
+  background-color: var(--topic-bg);
+  background-image: repeating-linear-gradient(180deg, var(--main-accent) 0, var(--main-accent) 5px, transparent 0, transparent 50%);
+  background-size: 16px 16px;
+  border: solid 2px var(--main-accent);
+  border-radius: 8px;
+  display: inline-block;
+  height: 16px;
+  margin: -3px 0px 2px -3px;
+  opacity: 0.8;
   width: 16px;
 }
 
