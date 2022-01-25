@@ -5,6 +5,7 @@ var gProgress = null;
 /* Status management */
 const statuses = new Map();
 statuses.set("not-started","Not Started");
+statuses.set("skipped","Skipped");
 statuses.set("started","Started");
 statuses.set("completed","Completed");
 
@@ -12,6 +13,8 @@ statuses.set("completed","Completed");
 function toggleStatus(currentStatus) {
 
 	if (currentStatus === "not-started") {
+		return "skipped";
+	} else if (currentStatus === "skipped") {
 		return "started";
 	} else if (currentStatus === "started") {
 		return "completed";
