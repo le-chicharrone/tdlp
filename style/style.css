@@ -5,15 +5,17 @@
   --main-accent: #E94D44;
   --main-accent-2: #D3D3D4;
   --header-bg: linear-gradient(90deg, #040508 0%, #52575E 100%);
-  --header-fg: #FFFFFF;
+  --header-fg: white;
   --topic-bg: #F5F5F5;
   --topic-header-bg: #A72E2F;
   --topic-header-fg: #F8F8F8;
   --course-type: #701F20;
   --button-bg-n: #4472A5;
   --button-bg-h: #588FBA;
-  --button-fg: #FFFFFF;
+  --button-fg: white;
   --course-status: green;
+  --shadow-30: rgba(0, 0, 0, 0.3);
+  --shadow-60: rgba(0, 0, 0, 0.6);
   --i-bg: rgb(255,255,255,0.5);
 }
 
@@ -74,12 +76,12 @@ summary::marker {
 }
 
 .roadmap::before {
-  background: repeating-linear-gradient(0deg, black 0%, white 5px, black 10px);
-  border-left: solid 2px black;
+  background: repeating-linear-gradient(0deg, var(--main-fg) 0px, var(--main-fg) 6px, var(--main-bg) 6px, var(--main-bg) 10px);
+  border-left: solid 2px var(--main-fg);
   border-radius: 2px;
-  border-right: solid 2px black;
+  border-right: solid 2px var(--main-fg);
   content: '';
-  height: calc(100% - 120px);
+  height: calc(100% - 124px);
   left: 50%;
   margin: 100px 0px;
   position: absolute;
@@ -108,7 +110,7 @@ summary::marker {
 .topic-content {
   background: var(--topic-bg);
   border-radius: 4px;
-  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 25px -15px var(--shadow-30);
   position: relative;
   width: 45%;
 }
@@ -188,6 +190,14 @@ summary::marker {
 
 }
 
+details > summary {
+  outline: transparent;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 details.level-1 > summary {
   color: var(--main-fg);
 }
@@ -213,7 +223,6 @@ details.level-2 > summary {
   color: var(--topic-header-fg);
   font-size: 110%;
   font-weight: bold;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -248,6 +257,7 @@ details.level-2 > summary:after {
 details[open].level-2 > summary {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+  margin-bottom: 10px;
 }
 
 details[open].level-2 > summary:after {
@@ -260,6 +270,10 @@ details[open].level-2 > summary:after {
 
 .topic:nth-child(even) .topic-content details[open].level-2 > summary {
   margin-bottom: 10px;
+}
+
+.topic:nth-child(even) details.level-3:last-child {
+  margin-bottom: 0px;
 }
 
 details.level-3 {
@@ -294,7 +308,7 @@ details.level-3 div {
 details.level-3 a {
   background: var(--button-bg-n);
   border-radius: 3px;
-  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 3px -1px var(--shadow-60);
   color: var(--button-fg);
   margin: 10px 0;
   padding: 5px 10px;
